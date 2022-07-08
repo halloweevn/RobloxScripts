@@ -1,0 +1,28 @@
+--// Only User and ID (NOT IP IM NOT WEIRD)
+
+local Players = game:GetService("Players")
+local player = Players.LocalPlayer
+
+local webhookcheck =
+   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "KRNL" or SONA_LOADED and "Sona" or FLUXUS_LOADED and "Fluxus" or getexecutorname and "Script Ware" or "Kid With Shitty Exploit"
+
+local url =
+   "WEBHOOKHERE"
+local data = {
+   ["embeds"] = {
+       {
+           ["title"] = "",
+           ["description"] = "",
+           ["type"] = "rich",
+           ["color"] = tonumber(0xeb673b),
+           }
+       }
+   }
+local newdata = game:GetService("HttpService"):JSONEncode(data)
+
+local headers = {
+   ["content-type"] = "application/json"
+}
+request = http_request or request or HttpPost or syn.request
+local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
+request(abcdef)
