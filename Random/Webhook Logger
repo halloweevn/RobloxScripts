@@ -1,7 +1,7 @@
 --// Only User and ID (NOT IP IM NOT WEIRD)
 
 local Players = game:GetService("Players")
-local player = Players.LocalPlayer
+local Player = Players.LocalPlayer
 
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or secure_load and "Sentinel" or KRNL_LOADED and "KRNL" or SONA_LOADED and "Sona" or FLUXUS_LOADED and "Fluxus" or getexecutorname and "Script Ware" or "Kid With Shitty Exploit"
