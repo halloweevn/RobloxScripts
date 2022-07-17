@@ -1,0 +1,9 @@
+if game.PlaceId == 9551640993 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/RobloxScripts/main/Mining%20Simulator%202/src'))()
+else
+    game.StarterGui:SetCore("SendNotification",{
+        Title = "Error..";
+        Text = "Game Not Supported :(";
+        Duration = 7;
+    })
+end
