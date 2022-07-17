@@ -1,13 +1,7 @@
 --// Toggle {true/false}
-local Click = true
+getgenv().AutoClicker = true
 
 while getgenv().AutoClicker == true do
     wait()
     mouse1click()
-end
-
-if Click == true then
-    getgenv().AutoClicker = true
-elseif Click == false then
-    getgenv().AutoClicker = false
 end
