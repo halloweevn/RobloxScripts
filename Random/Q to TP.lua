@@ -7,7 +7,7 @@ local Mouse = Player:GetMouse()
 
 --// Script
 Mouse.KeyDown:connect(function(Key)
-    if Key == "q" then -- Change "q" to Your Key!
+    if Key == "q" then -- Change "q" to Your Toggle Key
         if Mouse.Target then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Mouse.Hit.X, Mouse.Hit.Y, Mouse.Hit.Z)
         end
