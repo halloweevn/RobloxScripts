@@ -8,6 +8,8 @@ elseif game.PlaceId == 9183932460 then -- Untitled Hood
     })
 elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
     loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/RobloxScripts/main/Mining%20Clicker%20Simulator/src.lua'))()
+elseif game.PlaceId == 6677985923 then -- Millionaire Empire Tycoon
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/RobloxScripts/main/Millionaire%20Empire%20Tycoon/src.lua'))()
 else
     game.StarterGui:SetCore("SendNotification",{
         Title = "Error..";
